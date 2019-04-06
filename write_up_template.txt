@@ -1,0 +1,21 @@
+Challenge: 
+
+Files to download:
+
+
+Writeup:
+
+
+
+Steps:
+
+ 
+
+AAR:
+
+ 
+
+Disclaimer: I will not in any of my writeups include the flag. I see too often that solutions to these CTF challenges include the flag. I feel if someone 
+is taking the time to try to learn how to do these, just showing them the steps is a more valuable lesson than actually giving them the answer. 
+For the individuals looking for the flag, I am sorry if my writeups are not what you are looking for, but by knowing the steps it takes to get to the flag 
+you will save time in the long run and walk away knowing how to do it in the future. 

@@ -1,0 +1,33 @@
+Challenge: We need to gain access to some routers. Let's try and see if we can find the password in the captured network data: 
+https://mega.nz/#!XDBDRAQD!4jRcJvAhMkaVaZCOT3z3zkyHre2KHfmkbCN5lYpiEoY 
+Hint 1: It looks like someone logged in with their password earlier. Where would log in data be located in a network capture?<br /> 
+Hint 2: If you think you found the flag, but it doesn't work, consider that the data may be encrypted. Credit: picoCTF 2017
+
+Files to download: data.pcap
+
+Writeup:
+
+After downloading the data.pcap file, I knew that I would use the trusted Wireshark to start the process.
+
+Steps:
+
+1. Opened pcap file in wireshark
+
+2. The file was a pretty basic pcap file, with plenty of ICMP, UDP, TCP, and HTTP packets. I started by filtering out all packets that were not HTTP. 
+
+3. I looked through the HTTP packets for any POSTS in the info section. 
+
+4. There was only 1 POST in the listed files, so that had to be the packet with the information I needed. I like to use follow HTTP stream to make the results
+   a little more readable. There it was, username and password. I knew that chances were that the password would be encrypted(see hint2). In this case the password
+   was not so much encrypted as it was encoded(base64). 
+
+5. I went to an online base64 decoder and inserted the encoded text. Score, there was the flag.
+
+AAR: 
+   
+   This challenge was rated very hard on the website. I don't necessarily agree with the difficulty rating though. A basic knowledge of packets and traffic led to the answer
+   relatively quickly. I do agree it was a good reminder on the power of packet capturing and what information can be seen. 
+
+Disclaimer: I will not in any of my writeups include the flag. I see too often that solutions to these CTF challenges include the flag. I feel if someone is taking the time to 
+try to learn how to do these, just showing them the steps is a more valuable lesson than actually giving them the answer. For the individuals looking for the flag, I am sorry if 
+my writeups are not what you are looking for, but by knowing the steps it takes to get to the flag you will save time in the long run and walk away knowing how to do it in the future. 

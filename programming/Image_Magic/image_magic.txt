@@ -1,0 +1,33 @@
+Challenge: 
+It looks like someone messed up my picture! Can anyone reorganize the pixels? The python module PIL (Python Imaging Library) might be useful!
+https://mega.nz/#!OKxByZyT!vaabCJRG5D9zAUp7drTekcA5pszu67r_TbQMtxEzqGE 
+Update: I think whoever messed up my image took every column of pixels and put them side by side. Update: I think the width of the image was 304 
+before they messed with it.
+
+Files to download:
+out copy.jpg
+
+Writeup:
+
+This one was a fun one. I enjoy programming challenges especially. Following are the steps that I took to solve
+
+Steps:
+
+1. The challenge creater was nice enough to tell us what we needed. We had to create a python script, and they even told us what module to import
+
+2. Writing this script was a challenge for me. I spent quite a bit of time researching documentation on PIL to see what I had to do.
+
+3. After finally getting the script right, I ran the script and the image showed the flag. I included the script with comments on how it makes sense to me
+
+
+ 
+
+AAR:
+
+This was set as hard, and I completely agree with the difficutly designation. It took a bit of time and research to figure it out. I normally would not include the 
+script I used, I made this time the exception. 
+
+Disclaimer: I will not in any of my writeups include the flag. I see too often that solutions to these CTF challenges include the flag. I feel if someone 
+is taking the time to try to learn how to do these, just showing them the steps is a more valuable lesson than actually giving them the answer. 
+For the individuals looking for the flag, I am sorry if my writeups are not what you are looking for, but by knowing the steps it takes to get to the flag 
+you will save time in the long run and walk away knowing how to do it in the future. 

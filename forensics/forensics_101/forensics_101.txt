@@ -1,0 +1,23 @@
+Challenge:  Think the flag is somewhere in there. Would you help me find it? 
+https://mega.nz/#!OHohCbTa!wbg60PARf4u6E6juuvK9-aDRe_bgEL937VO01EImM7c
+
+Files to download: 95f6edfb66ef42d774a5a34581f19052.jpg 
+
+
+Writeup:
+
+After downloading the file, I knew this would be a steganography challenge. I have some basic first steps I do for any of these challenges.
+
+Steps:
+
+1. I choose to always run strings [filename] on any stego challenges. Just part of my process. Sometimes you get lucky on the easier challenges. This
+   was definitely one of those times. Once you run strings on this file, you will find the flag. 
+
+AAR:
+
+This challenge was labled as easy on the site. I agree this was a very basic challenge, as long as you knew that strings exist. 
+
+Disclaimer: I will not in any of my writeups include the flag. I see too often that solutions to these CTF challenges include the flag. I feel if someone 
+is taking the time to try to learn how to do these, just showing them the steps is a more valuable lesson than actually giving them the answer. 
+For the individuals looking for the flag, I am sorry if my writeups are not what you are looking for, but by knowing the steps it takes to get to the flag 
+you will save time in the long run and walk away knowing how to do it in the future. 
