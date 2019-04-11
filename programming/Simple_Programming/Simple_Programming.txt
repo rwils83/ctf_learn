@@ -1,0 +1,25 @@
+Challenge: Can you help me? I need to know how many lines there are where the number of 0's is a multiple 
+of 3 or the numbers of 1s is a multiple of 2. Please!
+
+Files to download: Data.dat
+
+
+Writeup: 	
+
+
+
+Steps: I chose to write a python script, which is included in this writeup folder. There are multiple ways
+to do this challenge, my script does work but there are plenty of other ways to do this as well. I recommend 
+trying different ways in different languages to see what way works best for you.
+
+ 
+
+AAR: This challenge was marked as easy, which I agree with. The script took a little time to figure out but that 
+is because I was trying to figure out which way I wanted to do this. The way I came up with was just one that would work.
+
+ 
+
+Disclaimer: I will not in any of my writeups include the flag. I see too often that solutions to these CTF challenges include the flag. I feel if someone 
+is taking the time to try to learn how to do these, just showing them the steps is a more valuable lesson than actually giving them the answer. 
+For the individuals looking for the flag, I am sorry if my writeups are not what you are looking for, but by knowing the steps it takes to get to the flag 
+you will save time in the long run and walk away knowing how to do it in the future. 

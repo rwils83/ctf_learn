@@ -1,17 +1,20 @@
-Challenge: 
+Challenge: In the computing industry, standards are established to facilitate information interchanges among American coders. 
+Unfortunately, I've made communication a little bit more difficult. Can you figure this one out? 
 
-Files to download:
+41 42 43 54 46 7B 34 35 43 31 31 5F 31 35 5F 55 35 33 46 55 4C 7D
+
+Files to download: None	
 
 
 Writeup:
 
 
 
-Steps:
-
+Steps: For this one I just used an online hex editor. There the flag was. Very simple. 
  
 
-AAR:
+AAR: This challenge was marked hard. I feel this challenge was pretty simple. I could see where maybe if the person doing
+the challenge did not know this was hex it would be hard, but most people would know that it was.
 
  
 
